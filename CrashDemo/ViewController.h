@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ViewControllerDelegate <NSObject>
+
+@optional
+- (void)vcDeletegate;
+
+@end
+
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak)id<ViewControllerDelegate> deletegate;
 
 @end
 

@@ -15,6 +15,9 @@
 		FDD1281A2279348700637CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD128192279348700637CAC /* main.m */; };
 		FDD128242279348700637CAC /* CrashDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD128232279348700637CAC /* CrashDemoTests.m */; };
 		FDD1282F2279348700637CAC /* CrashDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD1282E2279348700637CAC /* CrashDemoUITests.m */; };
+		FDD1283E227D8AD600637CAC /* XMNotoficationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD1283D227D8AD600637CAC /* XMNotoficationObject.m */; };
+		FDD12841227DA01900637CAC /* XMKvoObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD12840227DA01900637CAC /* XMKvoObjectA.m */; };
+		FDD12844227DA02600637CAC /* XMKvoObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD12843227DA02600637CAC /* XMKvoObjectB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		FDD1282A2279348700637CAC /* CrashDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD1282E2279348700637CAC /* CrashDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashDemoUITests.m; sourceTree = "<group>"; };
 		FDD128302279348700637CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD1283C227D8AD600637CAC /* XMNotoficationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMNotoficationObject.h; sourceTree = "<group>"; };
+		FDD1283D227D8AD600637CAC /* XMNotoficationObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMNotoficationObject.m; sourceTree = "<group>"; };
+		FDD1283F227DA01900637CAC /* XMKvoObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMKvoObjectA.h; sourceTree = "<group>"; };
+		FDD12840227DA01900637CAC /* XMKvoObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMKvoObjectA.m; sourceTree = "<group>"; };
+		FDD12842227DA02600637CAC /* XMKvoObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMKvoObjectB.h; sourceTree = "<group>"; };
+		FDD12843227DA02600637CAC /* XMKvoObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMKvoObjectB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				FDD1280B2279348500637CAC /* AppDelegate.m */,
 				FDD1280D2279348500637CAC /* ViewController.h */,
 				FDD1280E2279348500637CAC /* ViewController.m */,
+				FDD1283C227D8AD600637CAC /* XMNotoficationObject.h */,
+				FDD1283D227D8AD600637CAC /* XMNotoficationObject.m */,
+				FDD1283F227DA01900637CAC /* XMKvoObjectA.h */,
+				FDD12840227DA01900637CAC /* XMKvoObjectA.m */,
+				FDD12842227DA02600637CAC /* XMKvoObjectB.h */,
+				FDD12843227DA02600637CAC /* XMKvoObjectB.m */,
 				FDD128102279348500637CAC /* Main.storyboard */,
 				FDD128132279348600637CAC /* Assets.xcassets */,
 				FDD128152279348600637CAC /* LaunchScreen.storyboard */,
@@ -264,7 +279,10 @@
 			files = (
 				FDD1280F2279348500637CAC /* ViewController.m in Sources */,
 				FDD1281A2279348700637CAC /* main.m in Sources */,
+				FDD1283E227D8AD600637CAC /* XMNotoficationObject.m in Sources */,
+				FDD12844227DA02600637CAC /* XMKvoObjectB.m in Sources */,
 				FDD1280C2279348500637CAC /* AppDelegate.m in Sources */,
+				FDD12841227DA01900637CAC /* XMKvoObjectA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

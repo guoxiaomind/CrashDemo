@@ -10,4 +10,23 @@
 
 @implementation XMNotoficationObject
 
+//- (void)dealloc
+//{
+//    [[NSNotificationCenter defaultCenter] removeObserver:self];
+//}
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self != nil) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notification) name:@"XMNotoficationObject" object:nil];
+    }
+    return self;
+}
+
+- (void)notification
+{
+    NSLog(@"notification");
+}
+
 @end

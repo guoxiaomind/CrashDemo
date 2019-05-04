@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XMKvoObjectB.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XMKvoObjectA : NSObject
+
+@property (nonatomic, strong) XMKvoObjectB * objectB;
 
 @end
 
